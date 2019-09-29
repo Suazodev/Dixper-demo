@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
+## APP Deployed
+
+Navigate to: `dixper-demo-app.web.app`
+
 ## Features
 
 _AngularFireBase(AngularFireDatabaseModule)_
