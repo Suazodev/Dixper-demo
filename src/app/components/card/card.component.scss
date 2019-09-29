@@ -1,0 +1,23 @@
+img {
+  height: 100px;
+  filter: blur(2px) grayscale(100%);
+  border: 2px solid transparent;
+  margin-right: 2px;
+}
+
+img:hover {
+  height: 100px;
+  filter: blur(0px) grayscale(0%);
+  border: 2px solid #fe575f;
+  border-radius: 10px;
+  transform: scale(1);
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+.heroName {
+  text-align: center;
+  color: antiquewhite;
+  text-transform: uppercase;
+  font-family: 'Trajan_Bold';
+}

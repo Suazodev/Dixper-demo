@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {HeroesService} from './services/heroes.service';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dixper-demo-app';
+  heroes: Observable<any[]>;
+
+  constructor(heroesService: HeroesService) {
+    this.heroes = heroesService.heroes;
+  }
 }

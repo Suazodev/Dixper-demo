@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  overflow: hidden;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(10, 15, 45, 0.85),
+      rgba(10, 15, 45, 0.85)
+    ),
+    url(./assets/images/background.jpg);
+}
+
+@font-face {
+  font-family: 'Atarian_System_Bold';
+  src: url(assets/fonts/Atarian_System_Bold.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Trajan_Bold';
+  src: url(assets/fonts//Trajan_Bold.ttf) format('opentype');
+}
